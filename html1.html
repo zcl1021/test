@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table border="1" width=80%>
+			<tr>
+				<td>编号</td>
+				<td>书名</td>
+				<td>作者</td>
+				<td>价格</td>
+				<td>数量</td>
+				<td>操作</td>
+			</tr>
+			
+			<form action="/mod3/buy" method="post">
+				<tr>
+					<td><input type="text" name="id" value="1001"></td>
+					<td><input type="text" name="name" value="java程序设计"></td>
+					<td><input type="text" name="author" value="james"></td>
+					<td><input type="text" name="price" value="100"></td>
+					<td><input type="text" name="number" value=""></td>
+					<td><input type="submit" value="购买"></td>
+				</tr>
+			</form>
+			<form action="/mod3/buy" method="post">
+				<tr>
+					<td><input type="text" name="id" value="100s"></td>
+					<td><input type="text" name="name" value="java web"></td>
+					<td><input type="text" name="author" value="aaa"></td>
+					<td><input type="text" name="price" value="200"></td>
+					<td><input type="text" name="number" value=""></td>
+					<td><input type="submit" value="购买"></td>
+				</tr>
+			</form>
+		</table>
+		<a href="/mod3/myCart">我的购物车</a>
+	</body>
+</html>
